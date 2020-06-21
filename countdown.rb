@@ -2,8 +2,9 @@ t_minus = 10
 
 def countdown(t_minus)
   while t_minus > 0
+    
     puts "#{t_minus} SECOND(S)!"
-    t_minus -= 1
+
   end
   return "HAPPY NEW YEAR!"
 end
